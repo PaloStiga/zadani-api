@@ -10,6 +10,15 @@ Pro spuštění této aplikace potřebujete mít nainstalované Java 17 a Maven.
 
 Po úspěšném spuštění aplikace můžete přistoupit k REST rozhraní na adrese http://localhost:8080.
 
+## Závislosti
+
+#### org.springframework.boot:spring-boot-starter-web:3.0.5: Starter balíček pro webové aplikace s Spring frameworkem.
+#### org.projectlombok:lombok: Knihovna pro snadnou tvorbu Java projektů bez zbytečného opakování kódu.
+#### org.springframework.boot:spring-boot-starter-test: Starter balíček pro testování s Spring frameworkem.
+#### org.springdoc:springdoc-openapi-ui:1.7.0: Knihovna pro generování dokumentace API včetně uživatelského rozhraní.
+#### org.springdoc:springdoc-openapi-data-rest:1.7.0: Knihovna pro generování dokumentace API pro aplikace s podporou Spring Data REST.
+#### cz.stiga.ukol:persistence-lib:1.0.0: Knihovna pro práci s DTO
+
 ## Příklady použití
 
 ### Vložení záznamov:
